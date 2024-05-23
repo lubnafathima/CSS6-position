@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+.main {
+    height: 158vh;
+    background-color: #DE9494;
+    display: flow-root;
+}
+.object1 {
+    margin-top: 9.5rem;
+    margin-bottom: 4.44rem;
+    width: 3.75rem;
+    height: 9.375rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0%;
+    left: 100%;
+    z-index: 1;
+}
+.section {
+    height: 12.5rem;
+    background-color: #fff;
+    position: relative;
+}
+.box {
+    width: 5rem;
+    height: 5rem;
+    background-color: #87C5E8;
+    position: absolute;
+}
+.square1 {
+    top: 0;
+    left: 0;
+}
+.square2 {
+    top: 0;
+    right: 0;
+}
+.square3 {
+    bottom: 0;
+    left: 0;
+}
+.square4 {
+    bottom: 0;
+    right: 0;
+}
+.object2 {
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 100%;
+    position: fixed;
+    top: 85%;
+    right: 2.5%;
+}

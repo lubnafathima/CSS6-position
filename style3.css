@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aside {
+    position: fixed;
+    width: 15rem;
+    height: 100vh;
+    background-color: #87C5E8;
+    padding: 5.44rem 4.56rem 0 1.38rem;
+}
+.nav-items {
+    list-style: none;
+    padding: 0.62rem 0.75rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.nav-items:hover {
+    background-color: rgba(222, 148, 148, 0.45);
+}
+.main {
+    background-color: #DE9494;
+    color: #fff;
+    margin-left: 15rem;
+    padding: 5.44rem 3.75rem 8.62rem 5.13rem;
+}
+.title {
+    font-size: 3.4375rem;
+    font-weight: 700;
+    letter-spacing: -0.05156rem;
+    margin-bottom: 3.44rem;
+}
+.content {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.0225rem;
+}
